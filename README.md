@@ -80,12 +80,12 @@ function MyComponent() {
     return (
         <View>
             <Text>{counter}</Text>
-            <Button>+</Button>
+            <Button onPress={() => setCounter(counter + 1)}>+</Button>
         </View>
     );
 }
 
-function App() {
+function MyApp() {
     return (
         <CounterContext.Provider>
             <MyComponent />

@@ -1,6 +1,6 @@
 {
   "name": "@hashiprobr/react-create-state-context",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React function for simplifying the creation of state contexts",
   "keywords": [
     "JavaScript",
