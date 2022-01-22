@@ -1,7 +1,7 @@
 import React, { createContext, useState, useMemo } from 'react';
 
 export default function createStateContext(defaultValue) {
-    const Context = createContext(defaultValue);
+    const Context = createContext();
 
     const OriginalProvider = Context.Provider;
 
