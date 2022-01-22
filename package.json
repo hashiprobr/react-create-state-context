@@ -1,12 +1,14 @@
 {
   "name": "@hashiprobr/react-create-state-context",
-  "version": "1.0.3",
-  "description": "TODO",
+  "version": "1.0.4",
+  "description": "React function for simplifying the creation of state contexts",
   "keywords": [
     "JavaScript",
     "React",
-    "React Hook",
-    "createContext"
+    "React Context",
+    "createContext",
+    "useContext",
+    "useState"
   ],
   "homepage": "https://github.com/hashiprobr/react-create-state-context#readme",
   "bugs": {
