@@ -1,0 +1,28 @@
+{
+  "name": "@hashiprobr/react-create-state-context",
+  "version": "1.0.0",
+  "description": "TODO",
+  "keywords": [
+    "JavaScript",
+    "React",
+    "React Hook",
+    "createContext"
+  ],
+  "homepage": "https://github.com/hashiprobr/react-create-state-context#readme",
+  "bugs": {
+    "url": "https://github.com/hashiprobr/react-create-state-context/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashiprobr/react-create-state-context.git"
+  },
+  "license": "ISC",
+  "author": "Marcelo Hashimoto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1"
+  }
+}
