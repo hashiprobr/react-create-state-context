@@ -13,6 +13,7 @@ export default function createStateContext(defaultValue) {
                 {...props}
                 value={value}
             >
+                {props.children}
             </OriginalProvider>
         );
     }
