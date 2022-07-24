@@ -17,7 +17,7 @@ Peer dependencies
 
 ``` json
 {
-    "react": "^17.0.1"
+    "react": "17.0.2"
 }
 ```
 
@@ -80,12 +80,12 @@ function MyComponent() {
     return (
         <View>
             <Text>{counter}</Text>
-            <Button onPress={() => setCounter(counter + 1)}>+</Button>
+            <Button title="+" onPress={() => setCounter(counter + 1)} />
         </View>
     );
 }
 
-function MyApp() {
+export default function MyApp() {
     return (
         <CounterContext.Provider>
             <MyComponent />
