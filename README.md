@@ -17,7 +17,7 @@ Peer dependencies
 
 ``` json
 {
-    "react": "17.0.2"
+    "react": "18.2.0"
 }
 ```
 

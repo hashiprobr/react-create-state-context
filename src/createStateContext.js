@@ -6,12 +6,14 @@ export default function createStateContext(defaultValue) {
     const OriginalProvider = Context.Provider;
 
     function Provider(props) {
-        const [getter, setter] = useState(defaultValue);
-        const value = useMemo(() => [getter, setter], [getter]);
+        const [value, setValue] = useState(defaultValue);
+
+        const state = useMemo(() => [value, setValue], [value]);
+
         return (
             <OriginalProvider
                 {...props}
-                value={value}
+                value={state}
             >
                 {props.children}
             </OriginalProvider>
